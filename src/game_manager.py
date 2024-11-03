@@ -1,6 +1,6 @@
 import pygame
 from ant import Ant
-from useless_project_temp.src.pheromone import PheromoneTrail
+from pheromone import PheromoneTrail
 from random import randint
 
 GRID_SIZE = 32

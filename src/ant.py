@@ -1,7 +1,7 @@
-import pygame
+
 import random
 
-from game_manager import GRID_SIZE,GRID_HEIGHT,GRID_WIDTH
+from .game_manager import GRID_SIZE,GRID_HEIGHT,GRID_WIDTH
 
 class Ant:
     def __init__(self, image, game_manager):

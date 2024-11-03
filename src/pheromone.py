@@ -1,6 +1,6 @@
 
-from game_manager import GRID_SIZE,GRID_HEIGHT,GRID_WIDTH
-
+from .game_manager import GRID_SIZE
+GRID_SIZE=32
 class PheromoneTrail:
     def __init__(self):
         self.pheromone_map = {}

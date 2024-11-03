@@ -1,6 +1,6 @@
 import pygame
 import sys
-from game_manager import GameManager
+from .game_manager import GameManager
 
 # Constants
 SCREEN_WIDTH = 640
